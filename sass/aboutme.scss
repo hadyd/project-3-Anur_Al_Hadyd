@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+$primary-color: #fa8231;
+
+h2, h3 {
+  color: $primary-color;
+}
+
+
+nav {
+  background-color: $primary-color;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+
+  li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+
+  a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+  float: center;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#content {
+  float: center;
+  width: 100%;
+}
+
+body {
+  font-family: 'Quicksand',sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 8px 8px 14px 14px rgba(5, 5, 5, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.table {
+  margin: auto;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.profile img {
+  width: 250px;
+  margin: auto;
+}
+
+.goals img, .introduction img {
+  width: 200px;
+
+}
+
+@media (max-width: 1024px) {
+  .profile img, .goals img, .introduction img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: $primary-color;
+  text-align: center;
+  font-weight: bold;
+}
+
+header {
+  display: inline;
+}

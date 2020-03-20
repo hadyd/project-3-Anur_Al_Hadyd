@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+h2, h3 {
+  color: #fa8231;
+}
+
+nav {
+  background-color: #fa8231;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+  float: center;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#content {
+  float: center;
+  width: 100%;
+}
+
+body {
+  font-family: 'Quicksand',sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  text-align: center;
+}
+
+.card {
+  -webkit-box-shadow: 8px 8px 14px 14px rgba(5, 5, 5, 0.2);
+          box-shadow: 8px 8px 14px 14px rgba(5, 5, 5, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.table {
+  margin: auto;
+}
+
+.table a {
+  text-decoration: none;
+}
+
+.profile img {
+  width: 250px;
+  margin: auto;
+}
+
+.goals img, .introduction img {
+  width: 200px;
+}
+
+@media (max-width: 1024px) {
+  .profile img, .goals img, .introduction img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #fa8231;
+  text-align: center;
+  font-weight: bold;
+}
+
+header {
+  display: inline;
+}
+/*# sourceMappingURL=aboutme.css.map */

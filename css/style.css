@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+nav a:hover {
+  font-weight: bold;
+}
+
+body {
+    font-family: 'Quicksand',sans-serif !important;
+  }
+
+h2, h1, h5 {
+    color: #fa8231;
+  }
+
+  .articlecard {
+    margin: 0 auto; 
+    float: none;
+    margin-bottom: 10px; 
+}
+
+.card-image {
+  width: 250px;
+  margin: auto;
+}
+
+.card-content {
+  text-align: center;
+}
+
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+}
+
+.card-position {
+
+  float: center;
+
+}
+
